@@ -16,6 +16,8 @@
 		FD0923291BD97149006CF776 /* MountainsofChristmas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
 		FD09232B1BD97158006CF776 /* MountainsofChristmas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
 		FD09232D1BD9DB22006CF776 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09232C1BD9DB22006CF776 /* AboutVC.swift */; settings = {ASSET_TAGS = (); }; };
+		FD09232F1BD9DCAD006CF776 /* PlanetInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09232E1BD9DCAD006CF776 /* PlanetInfoVC.swift */; settings = {ASSET_TAGS = (); }; };
+		FD0923311BD9DD79006CF776 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0923301BD9DD79006CF776 /* QuizVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MountainsofChristmas-Bold.ttf"; sourceTree = "<group>"; };
 		FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MountainsofChristmas-Regular.ttf"; sourceTree = "<group>"; };
 		FD09232C1BD9DB22006CF776 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		FD09232E1BD9DCAD006CF776 /* PlanetInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetInfoVC.swift; sourceTree = "<group>"; };
+		FD0923301BD9DD79006CF776 /* QuizVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				FD0922FA1BD95F84006CF776 /* AppDelegate.swift */,
 				FD0922FE1BD95F84006CF776 /* Main.storyboard */,
+				FD0923301BD9DD79006CF776 /* QuizVC.swift */,
+				FD09232E1BD9DCAD006CF776 /* PlanetInfoVC.swift */,
 				FD0923011BD95F84006CF776 /* Assets.xcassets */,
 				FD0923031BD95F84006CF776 /* LaunchScreen.storyboard */,
 				FD0923061BD95F84006CF776 /* Info.plist */,
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD09232F1BD9DCAD006CF776 /* PlanetInfoVC.swift in Sources */,
+				FD0923311BD9DD79006CF776 /* QuizVC.swift in Sources */,
 				FD09232D1BD9DB22006CF776 /* AboutVC.swift in Sources */,
 				FD0922FB1BD95F84006CF776 /* AppDelegate.swift in Sources */,
 			);
