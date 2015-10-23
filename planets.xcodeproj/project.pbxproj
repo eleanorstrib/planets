@@ -15,6 +15,7 @@
 		FD09231B1BD95F85006CF776 /* planetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09231A1BD95F85006CF776 /* planetsUITests.swift */; };
 		FD0923291BD97149006CF776 /* MountainsofChristmas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
 		FD09232B1BD97158006CF776 /* MountainsofChristmas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		FD09232D1BD9DB22006CF776 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09232C1BD9DB22006CF776 /* AboutVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD09231C1BD95F85006CF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MountainsofChristmas-Bold.ttf"; sourceTree = "<group>"; };
 		FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MountainsofChristmas-Regular.ttf"; sourceTree = "<group>"; };
+		FD09232C1BD9DB22006CF776 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FD0923061BD95F84006CF776 /* Info.plist */,
 				FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */,
 				FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */,
+				FD09232C1BD9DB22006CF776 /* AboutVC.swift */,
 			);
 			path = planets;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD09232D1BD9DB22006CF776 /* AboutVC.swift in Sources */,
 				FD0922FB1BD95F84006CF776 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
