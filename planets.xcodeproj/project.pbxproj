@@ -16,8 +16,10 @@
 		FD0923291BD97149006CF776 /* MountainsofChristmas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
 		FD09232B1BD97158006CF776 /* MountainsofChristmas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
 		FD09232D1BD9DB22006CF776 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09232C1BD9DB22006CF776 /* AboutVC.swift */; settings = {ASSET_TAGS = (); }; };
-		FD09232F1BD9DCAD006CF776 /* PlanetInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09232E1BD9DCAD006CF776 /* PlanetInfoVC.swift */; settings = {ASSET_TAGS = (); }; };
+		FD09232F1BD9DCAD006CF776 /* PlanetDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09232E1BD9DCAD006CF776 /* PlanetDataVC.swift */; settings = {ASSET_TAGS = (); }; };
 		FD0923311BD9DD79006CF776 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0923301BD9DD79006CF776 /* QuizVC.swift */; settings = {ASSET_TAGS = (); }; };
+		FDA1F1CE1BDC5B9100744053 /* Share-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDA1F1CD1BDC5B9100744053 /* Share-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		FDBB02291BDF14B6008BDDAA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB02281BDF14B5008BDDAA /* Data.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +55,10 @@
 		FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MountainsofChristmas-Bold.ttf"; sourceTree = "<group>"; };
 		FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MountainsofChristmas-Regular.ttf"; sourceTree = "<group>"; };
 		FD09232C1BD9DB22006CF776 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
-		FD09232E1BD9DCAD006CF776 /* PlanetInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetInfoVC.swift; sourceTree = "<group>"; };
+		FD09232E1BD9DCAD006CF776 /* PlanetDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDataVC.swift; sourceTree = "<group>"; };
 		FD0923301BD9DD79006CF776 /* QuizVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		FDA1F1CD1BDC5B9100744053 /* Share-Regular.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Share-Regular.ttf"; sourceTree = "<group>"; };
+		FDBB02281BDF14B5008BDDAA /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +111,15 @@
 			children = (
 				FD0922FA1BD95F84006CF776 /* AppDelegate.swift */,
 				FD0922FE1BD95F84006CF776 /* Main.storyboard */,
+				FDBB02281BDF14B5008BDDAA /* Data.swift */,
 				FD0923301BD9DD79006CF776 /* QuizVC.swift */,
-				FD09232E1BD9DCAD006CF776 /* PlanetInfoVC.swift */,
+				FD09232E1BD9DCAD006CF776 /* PlanetDataVC.swift */,
 				FD0923011BD95F84006CF776 /* Assets.xcassets */,
 				FD0923031BD95F84006CF776 /* LaunchScreen.storyboard */,
 				FD0923061BD95F84006CF776 /* Info.plist */,
 				FD0923281BD97149006CF776 /* MountainsofChristmas-Bold.ttf */,
 				FD09232A1BD97158006CF776 /* MountainsofChristmas-Regular.ttf */,
+				FDA1F1CD1BDC5B9100744053 /* Share-Regular.ttf */,
 				FD09232C1BD9DB22006CF776 /* AboutVC.swift */,
 			);
 			path = planets;
@@ -245,6 +251,7 @@
 				FD0923051BD95F84006CF776 /* LaunchScreen.storyboard in Resources */,
 				FD0923021BD95F84006CF776 /* Assets.xcassets in Resources */,
 				FD0923001BD95F84006CF776 /* Main.storyboard in Resources */,
+				FDA1F1CE1BDC5B9100744053 /* Share-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD09232F1BD9DCAD006CF776 /* PlanetInfoVC.swift in Sources */,
+				FD09232F1BD9DCAD006CF776 /* PlanetDataVC.swift in Sources */,
+				FDBB02291BDF14B6008BDDAA /* Data.swift in Sources */,
 				FD0923311BD9DD79006CF776 /* QuizVC.swift in Sources */,
 				FD09232D1BD9DB22006CF776 /* AboutVC.swift in Sources */,
 				FD0922FB1BD95F84006CF776 /* AppDelegate.swift in Sources */,
@@ -497,6 +505,7 @@
 				FD0923211BD95F85006CF776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0923221BD95F85006CF776 /* Build configuration list for PBXNativeTarget "planetsTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +514,7 @@
 				FD0923241BD95F85006CF776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0923251BD95F85006CF776 /* Build configuration list for PBXNativeTarget "planetsUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				FD0923271BD95F85006CF776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

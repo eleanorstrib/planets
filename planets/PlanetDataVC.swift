@@ -1,5 +1,5 @@
 //
-//  PlanetInfoVC.swift
+//  PlanetDataVC.swift
 //  planets
 //
 //  Created by Eleanor Stribling on 10/22/15.
@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-class PlanetInfoVC: UITableViewController {
+class PlanetDataVC: UICollectionViewController {
     //codes
 }
