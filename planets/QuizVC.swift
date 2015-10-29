@@ -10,5 +10,9 @@ import Foundation
 import UIKit
 
 class QuizVC: UITableViewController {
-    //codes
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.hidden = false
+    }
 }

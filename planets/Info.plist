@@ -36,5 +36,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MountainsofChristmas-Bold.tff</string>
+		<string>MountainsofChristmas-Regular.tff</string>
+		<string>Share-Regular.tff</string>
+	</array>
 </dict>
 </plist>
